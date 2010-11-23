@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo Czy $1 jest zalogowany?
+
+foo=`who | grep $1|wc -1`
+
+echo Wynik wynosi: $foo
