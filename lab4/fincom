@@ -1,0 +1,1 @@
+last -400 | grep pts | sed -e 's/pts.*//g' | sort | uniq -c | sort -r | head -3
