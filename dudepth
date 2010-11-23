@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo Najwiekszy i najmniejsze katalogi to:
-
-k1=`du --max-depth=1 2> /dev/null | head -1`
-k2=`du --max-depth=1 2> /dev/null | tail -1`
-
-echo $k1
-echo $k2
