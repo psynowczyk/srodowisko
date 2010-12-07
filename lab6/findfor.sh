@@ -1,8 +1,3 @@
 #!/bin/bash
 
-files=~/psynowczyk/*
-
-for f in $files
-do
-find . -type f 
-done
+find . -maxdepth 1 -type f -exec head -1 {} \;
